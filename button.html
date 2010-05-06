@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="drug-cop.css" /> 
+    <style type="text/css">
+
+      /* only needed for demo page */
+      * {
+        padding: 0; margin: 0; 
+      } 
+
+      body {
+        padding: 6px; margin: 6px;
+      }
+
+      p { 
+        padding: 6px 0; margin: 6px 0; 
+      }
+
+      /* The Button: */
+
+      .sign_in_with_twitter {
+        height: 60px;
+        width: 280px;
+        position: relative;
+      }
+
+      .sign_in_with_twitter button {
+        height: 58px;
+        width: 350px;
+        text-align: right;
+        padding-right: 23px;
+        color: #293f46;
+        text-shadow: #fff 1px 1px 1px;
+        border: 2px solid #B1D4DC;
+        background: #c1e6ea -webkit-gradient(linear, left bottom, left top, color-stop(0,  #aed6dc), color-stop(0.9, #d3f5f6));
+        background: #c1e6ea -moz-linear-gradient( center bottom, rgb(161,200,209) 0%, rgb(211,245,246) 81%);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        font: bold 24px "Lucida Grande";
+        position: absolute;
+      }
+
+      .sign_in_with_twitter.darker button {
+        color: #fff;
+        text-shadow: #2F808F -1px -1px 1px;
+        border: 2px solid #1D7285;
+        background: #3ea8bb -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(37,146,173)), color-stop(0.81, rgb(70,214,219)));
+        background: #3ea8bb -moz-linear-gradient( center bottom, rgb(37,146,173) 0%, rgb(70,214,219) 81%);
+      }
+
+      .sign_in_with_twitter .icon {
+        background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAMAAAAZbWmiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAxQTFRFnN%2F9YMz8%2F%2F%2F%2F%2F%2F%2F%2FB4YsjQAAAAR0Uk5T%2F%2F%2F%2FAEAqqfQAAAC5SURBVHja1NVLDsMwCATQAe5%2F56pJcYMJMFK6KVs%2FW%2BJjG3aEelgVCKyR2FxJkVwJVSm5IN7RSF%2BTIzBCkausIRxKeWQBc2I7RFUEAp6UgkpDpaEmKAixNmaYwls8QqEh%2FgCyyZDlKQtOt%2FDhUPx4cPmr8OzOCJt1IdOTki7DVvC5h%2BvZm6ZMHWIcMyOP%2FL7hM5xkgjrCJdFmHb4uNHW0%2FZMrOmNZ3vfaKHmBLbUArXMB3uPPwkuAAQB85Q2%2FX3yHxwAAAABJRU5ErkJggg%3D%3D") no-repeat;
+        height: 30px;
+        width: 40px;
+        -webkit-background-size: 60% auto;
+        -moz-background-size: 60% auto;
+        -o-background-size: 60% auto;
+        position: absolute;
+        left: 19px;
+      }
+
+      .sign_in_with_twitter > div {
+        height: 54px;
+        position: absolute;
+        top: 2px;
+        left: 58px;
+        z-index: 2;
+        border-left: 2px solid #ADD1DD;
+        border-right: 2px solid #C6E9ED;
+      }
+
+      .sign_in_with_twitter.darker > div {
+        border-left: 2px solid #237C8F;
+        border-right: 2px solid #46BFD2;
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <div class="sign_in_with_twitter darker">
+    <div></div><button><div class="icon"></div>Sign in with Twitter</button>
+  </div>
+
+  <p />
+
+  <div class="sign_in_with_twitter lighter">
+    <div></div><button><div class="icon"></div>Sign in with Twitter</button>
+  </div>
+
+  <p>
+    <a href="http://blog.140proof.com/post/569779156/the-scalable-sign-in-button-for-twitter">140 Proof blog post about the buttons</a>
+  </p>
+
+  </body>
+</html>
