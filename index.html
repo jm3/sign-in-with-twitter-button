@@ -43,52 +43,61 @@
 	<style type="text/css">
     /* The Button: */
 
-    .sign_in_with_twitter {
-      height: 60px;
-      width: 280px;
-      position: relative;
-    }
+* {
+        padding: 0;
+        margin: 0;
+      }
 
-    .sign_in_with_twitter button {
-      height: 58px;
-      width: 350px;
-      text-align: right;
-      padding-right: 23px;
-      color: #293f46;
-      text-shadow: #fff 1px 1px 1px;
-      border: 2px solid #B1D4DC;
-      background: #c1e6ea -webkit-gradient(linear, left bottom, left top, color-stop(0,  #aed6dc), color-stop(0.9, #d3f5f6));
-      background: #c1e6ea -moz-linear-gradient( center bottom, rgb(161,200,209) 0%, rgb(211,245,246) 81%);
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      font: bold 24px "Lucida Grande";
-      position: absolute;
-    }
+      /* The Button: */
 
-    .sign_in_with_twitter.darker button {
-      color: #fff;
-      text-shadow: #2F808F -1px -1px 1px;
-      border: 2px solid #1D7285;
-      background: #3ea8bb -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(37,146,173)), color-stop(0.81, rgb(70,214,219)));
-      background: #3ea8bb -moz-linear-gradient( center bottom, rgb(37,146,173) 0%, rgb(70,214,219) 81%);
-    }
+      .sign_in_with_twitter {
+        height: 60px;
+        width: 280px;
+        position: relative;
+      }
 
-    .sign_in_with_twitter .icon {
-      background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAMAAAAZbWmiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAxQTFRFnN%2F9YMz8%2F%2F%2F%2F%2F%2F%2F%2FB4YsjQAAAAR0Uk5T%2F%2F%2F%2FAEAqqfQAAAC5SURBVHja1NVLDsMwCATQAe5%2F56pJcYMJMFK6KVs%2FW%2BJjG3aEelgVCKyR2FxJkVwJVSm5IN7RSF%2BTIzBCkausIRxKeWQBc2I7RFUEAp6UgkpDpaEmKAixNmaYwls8QqEh%2FgCyyZDlKQtOt%2FDhUPx4cPmr8OzOCJt1IdOTki7DVvC5h%2BvZm6ZMHWIcMyOP%2FL7hM5xkgjrCJdFmHb4uNHW0%2FZMrOmNZ3vfaKHmBLbUArXMB3uPPwkuAAQB85Q2%2FX3yHxwAAAABJRU5ErkJggg%3D%3D") no-repeat;
-      height: 30px;
-      width: 40px;
-      -webkit-background-size: 60% auto;
-      -moz-background-size: 60% auto;
-      -o-background-size: 60% auto;
-      position: absolute;
-      left: 19px;
-    }
+      .sign_in_with_twitter button {
+        height: 58px;
+        width: 350px;
+        text-align: right;
+        padding-right: 23px;
+        color: #293f46;
+        text-shadow: #fff 1px 1px 1px;
+        border: 2px solid #B1D4DC;
+        background: #c1e6ea -webkit-gradient(linear, left bottom, left top, color-stop(0,  #aed6dc), color-stop(0.9, #d3f5f6));
+        background: #c1e6ea -moz-linear-gradient( center bottom, rgb(161,200,209) 0%, rgb(211,245,246) 81%);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        font: bold 24px "Lucida Grande";
+        position: absolute;
+      }
 
-    .sign_in_with_twitter > div {
-      height: 54px;
-      position: absolute;
-      top: 2px;
-      left: 58px;
+      .sign_in_with_twitter.darker button {
+        color: #fff;
+        text-shadow: #2F808F -1px -1px 1px;
+        border: 2px solid #1D7285;
+        background: #3ea8bb -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(37,146,173)), color-stop(0.81, rgb(70,214,219)));
+        background: #3ea8bb -moz-linear-gradient( center bottom, rgb(37,146,173) 0%, rgb(70,214,219) 81%);
+      }
+
+      .sign_in_with_twitter .icon {
+        background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAiCAYAAAAd6YoqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NEY1RkNEQkY1MThFMTFFMDg0OTdCQjJGMUY4MjVBNDAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NEY1RkNEQzA1MThFMTFFMDg0OTdCQjJGMUY4MjVBNDAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RjVGQ0RCRDUxOEUxMUUwODQ5N0JCMkYxRjgyNUE0MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0RjVGQ0RCRTUxOEUxMUUwODQ5N0JCMkYxRjgyNUE0MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuikUpQAAAL6SURBVHjazNlNSFRRFMDxGbM0LfrQSoSsCJUog1oUmBFp0MeiUqKkRUEFQdEmisBFRdSmiAhatCiQBFuUEX2JrSpKUgIzCvuALHJjpWUjjSnO7X/rCCYz8959c2deB34w48y79x3ve+/eeyaolAr4FEEsRw/2YRYOYhq6EDJqTSfik73oQrf6G+/xVV5XmbYX9GlE9uPCqPdhfMQ7XMV1DJk0mObweQ6mW07iwJgkdPxCN97iC8YZt+owZNvwHUcx28LllINPyjmeY41J205fWIKINN6Pa6iWE/KSyHnlPnS/FzHDRiLavSidfMY5zDdIokJ5i0YEbSSiRyUUo5M+nEaBi3aalPc4ZSORkXslFKcjndAVLItxfKVKPLbaSEQrRYdDZ8OojzJCDywk8hrZiSQyEQ14gx6XnXaiWI4vxICyE9WxzjPNxRM6LMuGIoM5ZS4eYzPKkWFpDlod4+9Zbmf2XbjsoeOfGLA4qbZhJ75hEgpRhXaTJcoZHAr4HxFZvkyQhWcr1puutRbKSnULZvqUyDB68Uz+uQ91cumGjbzCfSz2MZE+1KMBnSjWo2M6IrVyjf5PoZM5bprIblzy8aSVjMgPWfLX4cafTZiHhV+N8i9aMEXmNisbq6XYjhJ5nZuiEdFTwJ6o++YEd4gb5aZLT1EiG9CYjETuSuOpiGaUyX1ivNV1ig8pnARPxEoiYOGSqJEnyErMQ36SEjmLpri1JS6tBZ7qSP+GXlDeksnJdrSjVNZtcYsPuTiMTR4exZNxbFRtynboOleZyZ49D62oRZGLA7OkiNaWxDmj120SY+eRPLSgAE9wBy+kpBmRPcUcrMJa+V6yQte2KuU8PNW1dFXktvI3nqLE9DKP9cER2X+nMgZxEhleambxPqyUwnIqQhcWyhOpYjp9QVct1qE5CSc/hDqpzmQmWo51u0QZjwrs0NtKTE3gRu7ATdkcvbT2Y4uHtVa+VEZWYJEUFrKRKQmPLCnCol9+MtB760eyRR20/Zj7LcAATi6n5ZtkolEAAAAASUVORK5CYII=") no-repeat 0 0;
+        height: 30px;
+        width: 40px;
+        -webkit-background-size:  90% auto;
+        -moz-background-size:     90% auto;
+        -o-background-size:       90% auto;
+        background-size:          90% auto;
+        position: absolute;
+        left: 10px;
+        top: 14px;
+      }
+
+      .sign_in_with_twitter > div {
+        height: 54px;
+        position: absolute;
+        top: 2px;
+        left: 58px;
         z-index: 2;
         border-left: 2px solid #ADD1DD;
         border-right: 2px solid #C6E9ED;
@@ -98,6 +107,7 @@
         border-left: 2px solid #237C8F;
         border-right: 2px solid #46BFD2;
       }
+
 
     </style>
 
@@ -155,7 +165,7 @@
     <h2>License</h2>
 <p>GPL</p>
 <h2>Authors</h2>
-<p>John Manoogian III (jm3@140proof.com)
+<p><a href="http://jm3.net">John Manoogian III</a> (jm3@140proof.com)
 <br/>
 <br/>      
 </p>
