@@ -90,6 +90,16 @@
         border-right: 2px solid #46BFD2;
       }
 
+      /* iPhone-friendliness */
+      @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+          .sign_in_with_twitter.darker button,
+          .sign_in_with_twitter button {
+            width: 370px;
+          }
+      }
+
     </style>
   </head>
   <body>
