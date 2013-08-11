@@ -1,13 +1,54 @@
-%div.sign_in_with_twitter
-  %div.divider
-  %div.container
-    %div.icon
-    Sign in with Twitter
+.buttons
+  -# FOLLOW
+  %div.scalable<
+    %a{:href => "https://twitter.com/intent/user?screen_name=jm3"}<
+      %i.face<
+      %b.divider>
+      %span.label<
+        Follow me on Twitter
 
--# for a darker version, just add the class "dark", like so:
+  -# SVG
+  %div.scalable<
+    %a{:href => "https://github.com/jm3/sign-in-with-twitter-button"}<
+      %i.svg<
+        = svg
+      %b.divider>
+      %span.label<
+        Log in with Twitter
 
-%div.sign_in_with_twitter.dark
-  %div.divider
-  %div.container
-    %div.icon
-    Sign in with Twitter
+  -# SIGN IN
+  %div.scalable<
+    %a{:href => "http://jm3.net"}<
+      %i.raster<
+      %b.divider>
+      %span.label<
+        Log in with Twitter
+
+  -# LIGHT
+  %div.scalable.light<
+    %a{:href => "http://140proof.com"}<
+      %i.svg<
+        = svg
+      %b.divider>
+      %span.label<
+        Log in with Twitter
+
+  -# for a darker version, just add the class "dark", like so:
+  %div.scalable.dark<
+    %a{:href => "http://twitter.com/jm3"}<
+      %i.raster<
+      %b.divider>
+      %span.label<
+        Tweet at me, bro.
+
+-# not part of the buttons
+.notes
+  %h1.title
+    Scalable HTML5 + CSS Twitter buttons by
+    %a{:href => "http://twitter.com/jm3"} @jm3
+    in light &amp; dark variations
+
+  %h2.footnote
+    %a{:href => "http://github.com/jm3/sign-in-with-twitter-button"}
+      Grab the code from Github: jm3/sign-in-with-twitter-button
+
