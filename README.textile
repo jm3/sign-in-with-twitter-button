@@ -1,3 +1,0 @@
-See: "http://jm3.github.com/sign-in-with-twitter-button/":http://jm3.github.com/sign-in-with-twitter-button/
-
-!http://dl.dropbox.com/u/10831018/blog/twitter-button/twitter-button-in-multiple-browsers.png!
