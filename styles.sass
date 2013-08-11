@@ -9,6 +9,7 @@
   border-radius:  8px
   border:         2px solid #B1D4DC
   color:          #293f46
+  cursor:         pointer
   font:           bold 24px "Lucida Grande"
   height:         49px
   line-height:    50px
@@ -16,7 +17,14 @@
   position:       absolute
   text-align:     right
   text-shadow:    #fff 1px 1px 1px
+  user-select:    none
   width:          317px
+  -webkit-touch-callout: none
+  -webkit-user-select:   none
+  &:hover
+    background: #c1f0f2 -webkit-gradient(linear, left bottom, left top, color-stop(0,  #98c4d0), color-stop(0.9, #c1f0f2))
+  &:active
+    background: #b4d7d8 -webkit-gradient(linear, left bottom, left top, color-stop(0, #83a7ad), color-stop(0.81, #b4d7d8))
 
 .sign_in_with_twitter.dark div.container
   background:   #3ea8bb -moz-linear-gradient( center bottom, rgb(37,146,173) 0%, rgb(70,214,219) 81%)
@@ -24,6 +32,10 @@
   border:       2px solid #1D7285
   color:        #fff
   text-shadow:  #2F808F -1px -1px 1px
+  &:hover
+    background: #2ac8ce -webkit-gradient(linear, left bottom, left top, color-stop(0, #137898), color-stop(0.81, #2ac8ce))
+  &:active
+    background: #3ea8bb -webkit-gradient(linear, left bottom, left top, color-stop(0, #055b80), color-stop(0.81, #13b9c1))
 
 .sign_in_with_twitter > div.divider
   border-left:   2px solid #ADD1DD
@@ -33,10 +45,16 @@
   position:      absolute
   top:           2px
   z-index:       2
+.sign_in_with_twitter:hover > div.divider
+  border-left:   2px solid #a3d0da
+  border-right:  2px solid #b8e6eb
 
 .sign_in_with_twitter.dark > div.divider
   border-left:   2px solid #237C8F
   border-right:  2px solid #46BFD2
+.sign_in_with_twitter:active > div.divider
+  border-left:   2px solid #8fb3b8
+  border-right:  2px solid #add0d1
 
 // iPhone-friendliness
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
